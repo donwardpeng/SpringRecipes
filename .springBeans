@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[2.2.6.200908051215-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/beans_Ch2_E2_4.xml</config>
+		<config>src/beans_Ch3_E3_1.xml</config>
+		<config>src/beans_Ch3_E3_4.xml</config>
+		<config>src/beans_Ch4_E4_1.xml</config>
+		<config>src/beans_Ch4_E4_2.xml</config>
+		<config>src/beans_Ch4_E4_1_1.xml</config>
+		<config>src/beans_Ch4_E4_3.xml</config>
+		<config>src/beans_Ch4_E4_6.xml</config>
+		<config>src/beans_Ch4_E4_7.xml</config>
+		<config>src/beans_Ch4_E4_8.xml</config>
+	</configs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

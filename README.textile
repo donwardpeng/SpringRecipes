@@ -1,0 +1,6 @@
+h1{color:black}. Spring Recipes
+
+h2. Description of Repository
+
+p{color:black}. This repository contains the source code (recipes) for the first four chapters from the book 'Spring
+Recipes - A Problem-Solution Approach' by Gary Mak. The collection of recipes is contained in one Eclipse 3.5 project with each chapter setup to run as a separate file. Spring is required in the classpath to build these recipes.

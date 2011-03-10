@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<bean id="aaa" class="com.Chapter4.E4_1.Battery">
+<property name="name" value="AAA" />
+<property name="price" value="2.5" />
+<property name="rechargeable" value="true" />
+</bean>
+
+<bean id="cdrw" class="com.Chapter4.E4_1.Disc">
+<property name="name" value="CD-RW" />
+<property name="price" value="1.5" />
+<property name="capacity" value="700" />
+</bean>
+
+</beans>

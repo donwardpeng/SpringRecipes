@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<bean id="aaa" class="com.Chapter4.E4_7.Battery">
+<property name="name" value="AAA" />
+<property name="price" value="2.5" />
+</bean>
+
+<bean id="cdrw" class="com.Chapter4.E4_7.Disc">
+<property name="name" value="CD-RW" />
+<property name="price" value="1.5" />
+</bean>
+
+<bean id="dvdr" class="com.Chapter4.E4_7.Disc">
+<property name="name" value="DVD-R" />
+<property name="price" value="3.0" />
+</bean>
+
+<bean id="shoppingCart" class="com.Chapter4.E4_7.ShoppingCart" scope="prototype">
+</bean>
+
+</beans>

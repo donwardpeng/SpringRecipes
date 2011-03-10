@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<bean id="prefix" class="com.Chapter3.E3_4.DatePrefixGenerator" >
+<property name="pattern" value="yyyyMMdd"> </property>
+</bean>
+
+<bean name="sequenceGenerator" 
+class="com.Chapter3.E3_4.SequenceGenerator" 
+dependency-check="simple"
+autowire="byName"
+>
+
+<!--  autowire="byType"-->
+<!--  <property name="prefix"> <ref local="datePrefixGenerator"></ref> </property>-->
+
+
+ 
+<property name="suffix"> <value>A</value></property>
+<property name="initial"> <value>100000</value></property>
+
+ </bean>
+
+</beans>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<bean id = "productCreator"
+ class = "com.Chapter4.E4_3.ProductCreator">
+ 	<property name="products">
+ 	<map>
+ 	<entry key = "aaa">
+ 	<bean class = "com.Chapter4.E4_3.Battery">
+ 	<property name = "name" value = "AAA"/>
+ 	<property name = "price" value = "2.5"/>
+	</bean>
+ 	</entry>
+ 	<entry key = "cdrw">
+ 	<bean class = "com.Chapter4.E4_3.Disc">
+ 	<property name = "name" value = "CD-RW"/>
+ 	<property name = "price" value = "1.5"/>
+ 	</bean> 	
+ 	</entry>	 	
+ 	<entry key = "mousePointer">
+ 	<bean class = "com.Chapter4.E4_3.Mouse">
+ 	<property name = "name" value = "LogiTech"/>
+ 	<property name = "price" value = "25"/>
+ 	</bean>
+ 	</entry>
+ 	</map>
+ 	</property>
+ </bean>
+
+<bean id = "aaa" factory-bean = "productCreator"
+factory-method = "createProduct">
+<constructor-arg value = "aaa"/>
+</bean>
+
+<bean id = "cdrw" factory-bean = "productCreator"
+factory-method= "createProduct">
+<constructor-arg value = "cdrw"/>
+</bean>
+
+<bean id = "mousePointer" factory-bean = "productCreator"
+factory-method = "createProduct">
+<constructor-arg value = "mousePointer"/>
+</bean>
+
+</beans>

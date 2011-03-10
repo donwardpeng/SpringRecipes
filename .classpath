@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/spring-framework-2.5.6/spring-framework-2.5.6.SEC01/dist/spring.jar"/>
+	<classpathentry kind="lib" path="C:/spring-framework-2.5.6/spring-framework-2.5.6.SEC01/lib/jakarta-commons/commons-logging.jar"/>
+	<classpathentry kind="lib" path="src/com/Chapter1/E1_5/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
